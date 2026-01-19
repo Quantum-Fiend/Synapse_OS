@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SyncEvent",
+  "type": "object",
+  "properties": {
+    "eventType": {
+      "type": "string",
+      "enum": ["cursor_move", "doc_update", "whiteboard_draw", "presence"]
+    },
+    "userId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "workspaceId": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "payload": {
+      "type": "object"
+    }
+  },
+  "required": ["eventType", "userId", "workspaceId", "payload"]
+}

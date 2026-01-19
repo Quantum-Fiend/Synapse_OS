@@ -1,0 +1,30 @@
+name: synapseos_flutter
+description: SynapseOS real-time collaboration platform.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.4
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  web_socket_channel: ^2.4.0
+  json_annotation: ^4.8.1
+  dio: ^5.3.3
+  google_fonts: ^6.1.0
+  flutter_markdown: ^0.6.18+1
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
