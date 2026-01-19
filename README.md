@@ -129,9 +129,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-<<<<<<< HEAD
+
 <p align="center">
   Generated with ❤️ by <b>Tushar</b> for <b>SynapseOS</b>
 </p>
-=======
->>>>>>> origin/main
+
